@@ -1,0 +1,144 @@
+/*css reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background : url(images/main-qimg-01145ef7a8e61493b624654465aa21f5.webp);
+    background-size: contain; 
+    background-position: center;
+    background-attachment: scroll local;
+    background-repeat: no-repeat;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 50px;
+}
+
+.navbar{
+    display: flex;
+    align-items: Center;
+    height: 8%;
+    width: 100%;
+
+}
+.navbar::before{
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.4;
+ }
+/*Navigation Bar: Logo and Image*/
+.navbar-brand{
+    margin: 10px 25px;
+}
+.navbar-brand img{
+    height: 50px;
+    margin: 10px 10px;
+}
+.navbar-collapse ul li{
+    list-style: none;
+    font-size: 1rem;
+ }
+ .navbar-collapse ul li a{
+    color: whitesmoke;
+    display: block;
+    padding: 3px 25px;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+.navbar-collapse ul li a:hover{
+    color: rgb(251, 250, 250);
+    background-color: rgb(4, 142, 82);
+
+}
+
+.btn{
+    
+    margin: 15px;
+    justify-content: center;
+    font-size: 1.5 rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+ .carousel{
+    margin: 2px;
+    padding: 50px;
+    height: 50%;
+    width: 100%;
+    
+ }
+
+ #about{
+    font-family: 'Bree Serif', serif;
+    justify-content: center; 
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(215, 176, 176);
+ }
+
+ button{
+    font-family: 'Bree Serif', serif;
+    border: 25px;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#Treat{
+    font-family: 'Bree Serif', serif;
+    margin: 20px 25px;
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+
+#blog{
+    font-family: 'Bree Serif', serif;
+    margin: 20px 25px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 2px solid rgb(15, 15, 15); 
+    padding: 10px;
+    border-radius: 20px;
+    background-color:beige;
+}
+
+#yt{
+    font-family: 'Bree Serif', serif;
+    margin: 20px 25px;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color:aliceblue;
+}
+
+footer{
+    font-family: 'Bree Serif', serif;
+    margin: 20px 25px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:azure;
+    color: rgb(5, 4, 4);
+    padding: 50px;
+}
